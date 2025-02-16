@@ -93,7 +93,7 @@
                         </ul>
                     </div>
                     <div class="details mt-20">
-                        <a href="blog-single.html">
+                        <a href="{{ env('APP_URL') }}/{{ $post->id }}/view">
                             <h3>{{ $post->title }}</h3>
                         </a>
                         <p class="tag-list-inline">Tag: <a href="#">{{ $post->category }}</a></p>
