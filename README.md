@@ -56,12 +56,17 @@ Follow these steps to set up the application:
    php artisan db:seed
    ```
 
-7. **Start the development server:**
+7. **Link storage into public:**
+   ```bash
+   php artisan storage:link
+   ```
+
+8. **Start the development server:**
    ```bash
    php artisan serve
    ```
 
-8. **Access the application:**
+9. **Access the application:**
    Open your browser and visit:
    ```
    http://127.0.0.1:8000
